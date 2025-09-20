@@ -252,23 +252,51 @@ body {
     display: flex;
 }
 
-.imgages-1 {
+.images-1 {
     position: absolute;
     z-index: 0;
-    top: 54px;
-    left: 211px;
+    top: 44px;
+    left: 210px;
 }
 
-.imgages-2 {
+.images-2 {
     position: absolute;
     z-index: 999;
-    top: -92px;
-    left: 383px;
+    top: -108px;
+    left: 460px;
 }
 
-.imgages-3 {
+.images-3 {
     position: absolute;
     z-index: 999;
-    top: 246px;
-    left: 481px;
+    top: 236px;
+    left: 460px;
+}
+
+.images-4 {
+    position: absolute;
+    z-index: 999;
+    top: 75px;
+    left: 719px;
+}
+
+.images-5 {
+    position: absolute;
+    z-index: 999;
+    top: -108px;
+    left: 978px;
+}
+
+.images-6 {
+    position: absolute;
+    z-index: 999;
+    top: 199px;
+    left: 978px;
+}
+
+.images-7 {
+    position: absolute;
+    z-index: 999;
+    top: 75px;
+    left: 1237px;
 }
