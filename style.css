@@ -41,7 +41,6 @@ body {
 .cart {
     position: relative;
 
-    border-right: 1px solid #FFFFFF;
     padding-right: 10px;
     height: 50px;
 }
@@ -300,3 +299,4 @@ body {
     top: 75px;
     left: 1237px;
 }
+
