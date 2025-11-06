@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class='header'>
+        <div class='container'>
+            <div class='header-line'>
+                <div class='header-logo'>
+                    <img src="images/logo.png" alt="">
+                </div>
+
+                <div class='nav'>
+                    <a class='nav-item' href="index.html">ГОЛОВНА</a>
+                    <a class='nav-item' href="Menu.html">МЕНЮ</a>
+                    <a class='nav-item' href="bio.html">ПРО НАС</a>
+                </div>
+
+                <a class='cart' href="cart.html">
+                    <img class="cart-img" src="images/cart.png" alt="">
+                </a>
+
+                <div class='phone'>
+                    <div class='phone-holder'>
+                        <div class='phone-img'>
+                            <img src="images/phone.png" alt="">
+                        </div>
+
+                        <a class='num' href='bio.html'>+380936454666</a>
+                    </div>
+                </div>
+
+                <div class='btn'>
+                    <a class='button' href='bio.html'>ЗАМОВЛЕННЯ СТОЛУ</a>
+                </div>
+            </div>
+        </div>
+        <div class='menu'>
+
+            <div class='container'>
+
+                <div class='menu-title'>
+                    Наше меню
+                </div>
+
+                <div class='menu-items'>
+            <div class='menu-item' data-id="01">
+                        <div class='menu-image'>
+                            <img src='images/cappuccino.jpg' class='menu-img'>
+                            
+                        <h1 class='menu-text'>
+                            Капучино
+                        </h1>
+                            <div class='price'>
+                                <div class='price__currency'>
+                                    65 UAH
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="form-message"></div>
+                        <button data-cart type="button" class='menu-button'>
+                            ЗАМОВИТИ
+                        </button>
+
+						<div class="details-wrapper">
+                            <div class="counter"> 
+                                <div class="counter__button" data-action="minus">-</div> 
+                                <div class="counter__value" data-counter>1</div> 
+                                <div class="counter__button" data-action="plus">+</div> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='menu-item' data-id="02">
+                        <div class='menu-image'>
+                            <img src='images/lemonade.jpg' class='menu-img'>
+                        <h1 class='menu-text'>
+                            Лимонад
+                        </h1>
+                            <div class='price'>
+                                <div class='price__currency'>
+                                    60 UAH
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="form-message"></div>
+                        <button data-cart type="button" class='menu-button'>
+                            ЗАМОВИТИ
+                        </button>
+
+						<div class="details-wrapper">
+                            <div class="counter"> 
+                                <div class="counter__button" data-action="minus">-</div> 
+                                <div class="counter__value" data-counter>1</div> 
+                                <div class="counter__button" data-action="plus">+</div> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='menu-item' data-id="03">
+                        <div class='menu-image'>
+                            <img src='images/croissant.jpg' class='menu-img'>
+                        <h1 class='menu-text'>
+                            Круасан
+                        </h1>
+                            <div class='price'>
+                                <div class='price__currency'>
+                                    75 UAH
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="form-message"></div>
+                        <button data-cart type="button" class='menu-button'>
+                            ЗАМОВИТИ
+                        </button>
+
+						<div class="details-wrapper">
+                            <div class="counter"> 
+                                <div class="counter__button" data-action="minus">-</div> 
+                                <div class="counter__value" data-counter>1</div> 
+                                <div class="counter__button" data-action="plus">+</div> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='menu-item' data-id="04">
+                        <div class='menu-image'>
+                            <img src='images/sandwich.jpg' class='menu-img'>
+                        <h1 class='menu-text'>
+                            Сендвіч з куркою
+                        </h1>
+                            <div class='price'>
+                                <div class='price__currency'>
+                                    120 UAH
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="form-message"></div>
+                        <button data-cart type="button" class='menu-button'>
+                            ЗАМОВИТИ
+                        </button>
+
+						<div class="details-wrapper">
+                            <div class="counter"> 
+                                <div class="counter__button" data-action="minus">-</div> 
+                                <div class="counter__value" data-counter>1</div> 
+                                <div class="counter__button" data-action="plus">+</div> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='menu-item' data-id="05">
+                        <div class='menu-image'>
+                            <img src='images/cheesecake.jpg' class='menu-img'>
+                        <h1 class='menu-text'>
+                            Чізкейк
+                        </h1>
+                            <div class='price'>
+                                <div class='price__currency'>
+                                    110 UAH
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="form-message"></div>
+                        <button data-cart type="button" class='menu-button'>
+                            ЗАМОВИТИ
+                        </button>
+
+						<div class="details-wrapper">
+                            <div class="counter"> 
+                                <div class="counter__button" data-action="minus">-</div> 
+                                <div class="counter__value" data-counter>1</div> 
+                                <div class="counter__button" data-action="plus">+</div> 
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+<script src="JavaScript/counter-menu.js"></script>
+<script src="JavaScript/cart-add.js"></script>
+</body>
+</html>
