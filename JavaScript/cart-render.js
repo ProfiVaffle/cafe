@@ -23,3 +23,4 @@ const cartItemHTML =
     toggleCartStatus();
     cartPricePlusDelivery();
 });
+
